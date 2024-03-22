@@ -1,1 +1,7 @@
-# Practica10TDP
+Este es mi repositorio en github: https://github.com/Jmrodrival04/Practica10TDP.git
+
+"Ejercicio 1"
+Este ejercicio consiste en crear un programa en Java que convierte temperaturas entre Celsius y Fahrenheit, y viceversa. El usuario introduce una temperatura y su escala (C o F), y el programa realiza la conversión a la otra escala, asegurándose de que la temperatura no esté por debajo del cero absoluto. El programa maneja errores, como entradas inválidas o temperaturas imposibles, mostrando mensajes de error adecuados. Esencialmente, enseña el manejo de entrada/salida, conversión de unidades, y el uso de excepciones para un flujo de control robusto.
+
+"Ejericio 2"
+El ejercicio desarrolla un sistema de gestión de stock para una librería en Java con tres componentes clave. Primero, la clase ExcepcionStockDesbordado es una excepción personalizada que se activa al superar los límites de stock permitidos por el tipo int. Segundo, la clase Libro modela un libro con ISBN y stock, y proporciona métodos para modificar este stock, los cuales lanzan la ExcepcionStockDesbordado si se incurre en un valor fuera de rango. Por último, ControlDeStock es la clase principal que facilita la interacción del usuario con el sistema permitiéndole añadir, quitar, consultar el stock de libros o salir del programa, manejando adecuadamente cualquier excepción que ocurra. Este sistema ilustra el manejo de excepciones en Java y emplea programación orientada a objetos para estructurar la lógica del negocio de una librería.
