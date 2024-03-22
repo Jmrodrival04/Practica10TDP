@@ -1,0 +1,8 @@
+@startuml
+class ConversorDeTemperatura {
+    +main(args : String[]) : void
+    +convertirCelsiusAFahrenheit(celsius : double) : double
+    +convertirFahrenheitACelsius(fahrenheit : double) : double
+}
+
+@enduml
